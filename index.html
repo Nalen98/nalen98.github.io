@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js lt-ie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Alena Skliarova</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/simple-line-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+<!--
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+-->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+<header role="banner" id="header">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="navbar-header">
+                    <a href="#" class="js-nav-toggle nav-toggle" data-toggle="collapse" data-target="#navbar"
+                       aria-expanded="false" aria-controls="navbar"><i></i></a>
+                    <a class="navbar-brand" href="index.html">Alena Skliarova</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#" data-nav-section="about"><span>About me</span></a></li>
+                        <li><a href="#" data-nav-section="cve"><span>CVE</span></a></li>
+                        <li><a href="#" data-nav-section="projects"><span>Projects</span></a></li>
+                        <li><a href="#" data-nav-section="articles"><span>Articles</span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<section id="about" data-section="about" style="background-image: url(images/full_image.webp);"
+         data-stellar-background-ratio="0.5">
+    <div class="gradient"></div>
+    <div class="container">
+        <div class="text-wrap">
+            <div class="text-inner">
+                <div class="row">
+                    <div class="col-md-8 section-heading text-center">
+                        <h1 class="animate-box"><span class="big">Alena Skliarova</span></h1>
+                    </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4 animate-box bottom-margin-mobile">
+                                    <img src="images/photo.webp" class="img-circle" alt="Photo">
+                                </div>
+                                <div class="col-md-7 col-md-offset-1 animate-box">
+                                    <h1 style="font-size:27px;"><img src="images/android.webp" alt="Android logo" width="50" height="50" style="margin-bottom:8px;margin-right:16px;">Android security researcher</h1>
+                                    <h1 style="font-size:27px;"><img src="images/ida.webp" alt="Ida logo" width="50" height="50" style="margin-bottom:8px;margin-right:16px;">Reverse engineer</h1>
+                                    <h1 style="font-size:27px;"><img src="images/google.webp" alt="Google logo" width="50" height="50" style="margin-bottom:8px;margin-right:16px;">Google BugBounty participiant</h1>
+                                    <h1 style="font-size:27px;"><img src="images/ghidra-logo.webp" alt="Ghidra logo" width="50" height="50" style="margin-bottom:8px;margin-right:16px;">Ghidra SRE contributor</h1>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="cve" data-section="cve">
+    <div class="container">
+        <div class="col-md-12 section-heading text-center">
+            <h2 class="animate-box">My CVE in Android</h2>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-md-4 block animate-box">
+            <ul class="cve">
+                <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-21252">CVE-2023-21252</a></li>
+                <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-21348">CVE-2023-21348</a></li>
+                <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-21350">CVE-2023-21350</a></li>
+                <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-21243">CVE-2023-21243</a></li>
+                <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-21240">CVE-2023-21240</a></li>
+                <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-21143">CVE-2023-21143</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-md-12 text-center" style="margin-bottom:16px;">
+            <h2 class="animate-box">Android security bulletins</h2>
+                <div class="col-md-8 col-md-offset-2 subtext animate-box fadeInUp">
+                    <h2>2023</h2>
+                </div>
+        </div>
+    </div>
+    <div class="container">
+            <div class="row">
+                <div class="col-md-4 animate-box text-center">
+                <a href="https://source.android.com/docs/security/bulletin/2023-06-01"><h3>June</h3></a>
+            </div>
+                <div class="col-md-4 animate-box text-center">
+                <a href="https://source.android.com/docs/security/bulletin/2023-07-01"><h3>July</h3></a>
+            </div>
+                <div class="col-md-4 animate-box text-center">
+                <a href="https://source.android.com/docs/security/bulletin/2023-10-01"><h3>October</h3></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects" data-section="projects">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 section-heading text-center">
+                <h2 class="animate-box">My GitHub projects</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="block animate-box">
+                    <a href="https://github.com/Nalen98/AngryGhidra">
+                        <div class="block-entry" style="background-image: url(images/angry-ghidra.webp);">
+                            <div class="desc">
+                                <p>Use angr in Ghidra</p>
+                            </div>
+                        </div>
+                        <div class="app-text text-center">
+                            <h3>AngryGhidra</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="block animate-box">
+                    <a href="https://github.com/Nalen98/GhidraEmu">
+                        <div class="block-entry" style="background-image: url(images/ghidra-emu.webp);">
+                            <div class="desc">
+                                <p>Native Pcode emulator</p>
+                            </div>
+                        </div>
+                        <div class="app-text text-center">
+                             <h3>GhidraEmu</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="block animate-box">
+                    <a href="https://github.com/Nalen98/eBPF-for-Ghidra">
+                        <div class="block-entry" style="background-image: url(images/ebpf-ghidra.webp);">
+                            <div class="desc">
+                                <p>eBPF Processor for Ghidra</p>
+                            </div>
+                        </div>
+                        <div class="app-text text-center">
+                            <h3>eBPF-for-Ghidra</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <div class="block animate-box">
+                    <a href="https://github.com/NationalSecurityAgency/ghidra">
+                        <div class="block-entry" style="background-image: url(images/ghidra.webp);">
+                            <div class="desc">
+                                <p>Ghidra is a software reverse engineering (SRE) framework</p>
+                            </div>
+                        </div>
+                        <div class="app-text text-center">
+                            <h3>Ghidra (Contributing)</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+</section>
+
+<section id="articles" data-section="articles">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 section-heading text-center">
+                <h2 class="animate-box">My articles</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="block animate-box">
+                    <a href="https://habr.com/ru/companies/dsec/articles/702652/">
+                        <div class="block-entry" style="background-image: url(images/article3.webp);"></div>
+                        <div class="app-text text-center">
+                                <h3>SAST for the beginners. Open-source vulnerability detection tools for C/C++</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="block animate-box">
+                    <a href="https://habr.com/ru/companies/dsec/articles/520206/">
+                        <div class="block-entry" style="background-image: url(images/article2.webp);"></div>
+                        <div class="app-text text-center">
+                                <h3>Symbolic execution in Ghidra with angr</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="block animate-box">
+                    <a href="https://habr.com/ru/companies/dsec/articles/468529/">
+                        <div class="block-entry" style="background-image: url(images/article1.webp);"></div>
+                        <div class="app-text text-center">
+                                <h3>Decompilation eBPF in Ghidra</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="footer" role="contentinfo">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 animate-box">
+                <h3 class="section-title">Alena Skliarova</h3>
+                <p>Security Researcher and BugHunter</p>
+
+            </div>
+
+            <div class="col-md-4 animate-box">
+                <h3 class="section-title">My Contacts</h3>
+                <ul class="contact-info">
+                    <li><i class="icon-envelope"></i><a href="mailto:contact@askliarova.com">contact@askliarova.com</a></li>
+                    <li><i class="icon-globe"></i><a href="#">www.askliarova.com</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 animate-box">
+                <h3 class="section-title">Connect with Me</h3>
+                <ul class="social-media">
+                    <li><a href="https://github.com/Nalen98" class="github"><i class="icon-social-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/askliarova/" class="linkedin"><i class="icon-social-linkedin"></i></a></li>
+                    <li><a href="https://twitter.com/Nalen98" class="twitter"><i class="icon-social-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="copy-right">&copy; 2024 Alena Skliarova. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
