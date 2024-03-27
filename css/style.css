@@ -494,6 +494,7 @@ h1, h2, h3, h4, h5, h6 {
 .block > a:hover .desc {
   opacity: 1;
 }
+
 .block .block-entry {
   width: 100%;
   float: left;
@@ -510,9 +511,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-
-/* .img-div {height:auto; width:100%} */
-
+.fix-padding {
+  padding: 0;
+}
 
 .block .block-entry .desc {
   position: absolute;
@@ -578,11 +579,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
   letter-spacing: .1em;
 }
-@media screen and (max-width: 768px) {
-  .section-heading h2 {
-    font-size: 28px;
-  }
-}
+
 .section-heading h3 {
   font-size: 18px;
   font-weight: 400;
@@ -636,9 +633,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom:60px;
 }
 
-@media screen and (max-width: 768px) {
+.top-margin-fix {
+  margin-top:31px;
+}
+
+@media screen and (max-width: 991px) {
   .bottom-margin-mobile {
-    margin-bottom: 32px;
+    margin-bottom: 48px;
   }
 }
 
