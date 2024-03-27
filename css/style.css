@@ -357,7 +357,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(0, 0, 0, 0.5);
 }
 #about, #about .text-wrap {
-  height: 900px;
+  height: 1050px;
 }
 #about .text-wrap {
   display: table;
