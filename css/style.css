@@ -533,11 +533,20 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
-@media screen and (max-width: 991px) {
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
   .title-padding {
     margin-top: 140px;
   }
 }
+
+@media screen and (max-width: 768) {
+  .title-padding {
+    margin-top: 0px;
+    display: none;
+  }
+}
+
 
 .block .block-entry .desc {
   position: absolute;
