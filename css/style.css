@@ -547,6 +547,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media screen and (max-width: 991px) {
+  .hidden-header {
+    display: none;
+  }
+}
 
 .block .block-entry .desc {
   position: absolute;
@@ -630,6 +635,15 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.dynamic-padding {
+  padding-top: 45px;
+}
+
+@media screen and (max-width: 992px) {
+  .dynamic-padding {
+    padding-top: 4px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .section-heading h3 {
