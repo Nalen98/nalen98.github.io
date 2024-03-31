@@ -534,13 +534,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-@media screen and (max-width: 991px) and (min-width: 768px) {
+@media screen and (max-width: 991px) and (min-width: 766px) {
   .title-padding {
     margin-top: 140px;
   }
 }
 
-@media screen and (max-width: 768) {
+@media screen and (max-width: 766) {
   .title-padding {
     margin-top: 0px;
     display: none;
