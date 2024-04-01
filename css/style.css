@@ -422,27 +422,26 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: .1em;
   padding: 0;
 }
+
 @media screen and (max-width: 768px) {
   #about .text-inner h1 .big {
     font-size: 30px;
   }
 }
 
-
 @media screen and (max-width: 991px) and (min-width: 766px) {
   #about .text-inner h1 .big {
     margin-top: 140px;
-    margin-left: -50px;
+    margin-left: -100px;
   }
 }
 
 @media screen and (max-width: 766) {
   #about .text-inner h1 .big {
     margin-top: 0px;
-
+    display: none;
   }
 }
-
 
 #about .text-inner h1 .medium {
   font-size: 40px;
