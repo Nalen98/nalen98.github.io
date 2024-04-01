@@ -392,6 +392,19 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 40px 0;
   letter-spacing: .1em;
 }
+
+@media screen and (max-width: 991px) and (min-width: 766px) {
+  #about .text-inner h1 {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 766px) and (min-width: 630px) {
+  #about .text-inner h1 {
+    margin-left: 50px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   #about .text-inner h1 {
     font-size: 30px;
@@ -407,12 +420,30 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 58px;
   text-transform: none;
   letter-spacing: .1em;
+  padding: 0;
 }
 @media screen and (max-width: 768px) {
   #about .text-inner h1 .big {
     font-size: 30px;
   }
 }
+
+
+@media screen and (max-width: 991px) and (min-width: 766px) {
+  #about .text-inner h1 .big {
+    margin-top: 140px;
+    margin-left: -50px;
+  }
+}
+
+@media screen and (max-width: 766) {
+  #about .text-inner h1 .big {
+    margin-top: 0px;
+
+  }
+}
+
+
 #about .text-inner h1 .medium {
   font-size: 40px;
   text-transform: none;
@@ -522,28 +553,6 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   .block .block-entry {
     height: 400px;
-  }
-}
-
-.fix-padding {
-  padding: 0;
-}
-
-.title-padding{
-  padding: 0;
-}
-
-
-@media screen and (max-width: 991px) and (min-width: 766px) {
-  .title-padding {
-    margin-top: 140px;
-  }
-}
-
-@media screen and (max-width: 766) {
-  .title-padding {
-    margin-top: 0px;
-    display: none;
   }
 }
 
