@@ -693,6 +693,8 @@ h1, h2, h3, h4, h5, h6 {
 #articles .block h3 {
   font-size: 18px;
   padding: 20px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 #articles .block h4 {
@@ -700,7 +702,29 @@ h1, h2, h3, h4, h5, h6 {
   padding: 4px;
 }
 
+@media screen and (max-width: 991px) and (min-width: 768px){
+  #articles .block .special h3 {
+    font-size: 18px;
+    padding-top: 335px;
+  }
+  #articles .block .special2 h3 {
+    font-size: 18px;
+    padding-top: 335px;
+  }
+  #articles .block .special3 h4 {
+    font-size: 17px;
+    padding-top: 335px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
 
+@media screen and (max-width: 768px){
+  #articles .block h4 {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   #articles .block .block-text h3 {
