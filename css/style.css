@@ -237,6 +237,12 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 0 !important;
   }
 }
+@media screen and (max-width: 843px) and (min-width: 769px){
+  #header .navbar-brand {
+    margin-left: -40px;
+    padding-right: 0 !important;
+  }
+}
 #header.navbar-fixed-top {
   position: fixed !important;
   background: #fff;
@@ -929,7 +935,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 25px;
   border-bottom: none !important;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .nav-toggle {
     display: block;
   }
