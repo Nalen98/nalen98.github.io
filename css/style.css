@@ -678,10 +678,30 @@ h1, h2, h3, h4, h5, h6 {
   list-style-type: none;
 }
 
+#articles .block .special h3 {
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 1199px) {
+  #articles .block .special h3 {
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+}
+
 #articles .block h3 {
-  font-size: 16px;
+  font-size: 18px;
   padding: 20px;
 }
+
+#articles .block h4 {
+  font-size: 17px;
+  padding: 4px;
+}
+
+
+
 @media screen and (max-width: 768px) {
   #articles .block .block-text h3 {
     font-size: 16px;
@@ -1263,5 +1283,6 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
+
 
 /*# sourceMappingURL=style.css.map */
