@@ -526,6 +526,7 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   margin-bottom: 40px;
 }
+
 .block > a {
   width: 100%;
   float: left;
@@ -553,15 +554,18 @@ h1, h2, h3, h4, h5, h6 {
   height: 300px;
 }
 
-@media screen and (max-width: 768px) {
-  .block .block-entry {
-    height: 400px;
-  }
-}
-
 @media screen and (max-width: 991px) {
   .hidden-header {
     display: none;
+  }
+  .hidden-line {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .block .block-entry {
+    height: 400px;
   }
 }
 
@@ -693,8 +697,6 @@ h1, h2, h3, h4, h5, h6 {
 #articles .block h3 {
   font-size: 18px;
   padding: 20px;
-  margin-left: 8px;
-  margin-right: 8px;
 }
 
 #articles .block h4 {
@@ -716,6 +718,9 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 335px;
     margin-left: 50px;
     margin-right: 50px;
+  }
+  #projects .block .special4 h3 {
+    padding-top: 435px;
   }
 }
 
