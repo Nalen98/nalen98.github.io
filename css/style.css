@@ -588,6 +588,20 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media (min-width: 615px) and (max-width: 767px) {
+  .special-type {
+    width: 73.33333333%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 645px) and (max-width: 767px) {
+  .art-block {
+    width: 93.33333333%;
+    margin: 0 auto;
+  }
+}
+
 .block .block-entry .desc {
   position: absolute;
   top: 0;
