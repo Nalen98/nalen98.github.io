@@ -563,9 +563,28 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
 @media screen and (max-width: 768px) {
   .block .block-entry {
     height: 400px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .block .art-block-h {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 644px) {
+  .block .art-block-h {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .block .art-block-h {
+    height: 280px;
   }
 }
 
@@ -755,10 +774,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .bottom-margin-mobile2 {
   margin-bottom:60px;
-}
-
-.top-margin-fix {
-  margin-top:31px;
 }
 
 @media screen and (max-width: 991px) {
