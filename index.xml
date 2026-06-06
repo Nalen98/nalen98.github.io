@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Alena Skliarova</title>
+    <link>/</link>
+    <description>Recent content on Alena Skliarova</description>
+    <generator>Hugo -- 0.154.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Protecting Android Application Resources with Runtime Resource Overlay</title>
+      <link>/talks/mobius-2025-autumn/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/talks/mobius-2025-autumn/</guid>
+      <description>&lt;p&gt;In this talk, I explore Runtime Resource Overlay (RRO), an often overlooked yet powerful mechanism in the Android operating system that allows applications to dynamically modify their own resources — as well as those of other apps — at runtime without recompilation. I analyze the significant potential RRO holds for safeguarding application resources, such as storing data in an encrypted form and decrypting it on the fly. This dynamic resource substitution drastically complicates reverse engineering efforts, making mobile apps far more resilient to analysis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SAST for the beginners. Open-source vulnerability detection tools for C/C&#43;&#43;</title>
+      <link>/articles/sast-for-beginners/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>/articles/sast-for-beginners/</guid>
+      <description>&lt;p&gt;A beginner-friendly overview of open-source Static Application Security Testing (SAST) tools for identifying vulnerabilities and enhancing code quality in C/C++ projects&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Symbolic execution in Ghidra with angr</title>
+      <link>/articles/symbolic-execution-angr/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/articles/symbolic-execution-angr/</guid>
+      <description>&lt;p&gt;An overview of AngryGhidra, a Ghidra plugin that bridges the GUI with Angr symbolic execution engine to automate binary analysis and crackme solving without writing a single line of code&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Decompilation eBPF in Ghidra</title>
+      <link>/articles/decompilation-ebpf/</link>
+      <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/articles/decompilation-ebpf/</guid>
+      <description>&lt;p&gt;A practical guide to implementing eBPF processor support in Ghidra using Sleigh, enabling reverse engineers to disassemble and decompile eBPF bytecode&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pwned on the Road: How Car-UI-Lib Vulnerability Put Android Automotive Users at Risk</title>
+      <link>/talks/tengucon-2025/</link>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/talks/tengucon-2025/</guid>
+      <description>&lt;p&gt;Your in-car screen is meant to show the truth — but what if it doesn’t?&lt;/p&gt;
+&lt;p&gt;This talk explores a vulnerability in car-ui-lib that affects Android Automotive system apps, specifically impacting users with rotary controllers. The vulnerability allows attackers to manipulate content on the car’s infotainment system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Life-Threatening Bug: A Vulnerability in Android OS That Cuts Off Users in Critical Situations</title>
+      <link>/talks/offzone-2025/</link>
+      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>/talks/offzone-2025/</guid>
+      <description>&lt;p&gt;This talk analyzes weaknesses in the Android permission model and uncovers flaws in the global restriction policy that can disrupt vital system features like emergency calls. It dives deep under the hood of the operating system to demonstrate this vulnerability in action.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Resource Overlay Attacks on Android Applications</title>
+      <link>/talks/phtalks-2025-jakarta/</link>
+      <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>/talks/phtalks-2025-jakarta/</guid>
+      <description>&lt;p&gt;This talk explores how attackers exploit the Android Runtime Resource Overlay (RRO) mechanism to dynamically alter application resources. By overriding resources at runtime, malicious actors can change an app&amp;rsquo;s appearance and behavior on the fly, manipulating the user experience to trick users into unintended actions.&lt;/p&gt;
+&lt;p&gt;The session also analyzes the specific security risks for app developers and highlights effective mitigation strategies to defend against these attacks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>From idea to CVE: How to Find Vulnerabilities in Android</title>
+      <link>/talks/mobius-2025-spring/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/talks/mobius-2025-spring/</guid>
+      <description>&lt;p&gt;In this talk, I break down how to discover security vulnerabilities in the Android operating system and provide practical recommendations on where to start, how to choose a target, and which methods and tools to use. I share key insights into what to focus on during the research process and cover the essential components required to craft a high-quality technical report.&lt;/p&gt;
+&lt;p&gt;Additionally, I walk through the entire lifecycle of a vulnerability — from its initial discovery to CVE assignment and final publication in the Android Security Bulletin. I also share the technical details of several patched vulnerabilities that I personally uncovered in Android OS, making this session ideal for anyone interested in Android security and looking to dive into mobile bug hunting.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Journey in Google Bug Bounty</title>
+      <link>/talks/tengucon-2024/</link>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>/talks/tengucon-2024/</guid>
+      <description>&lt;p&gt;This talk offers a candid reflection on a personal bug bounty journey, recapping both successful high-severity reports and instructive failures. It analyzes common mistakes made by bug hunters and provides a firsthand look into how the Android Vulnerability Reward Program works.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Discovered CVEs in Android OS</title>
+      <link>/cves/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/cves/</guid>
+      <description>&lt;style&gt;
+  html[data-theme=&#34;dark&#34;] .cve-page th { border-bottom: 1px solid #333333 !important; }
+  html[data-theme=&#34;dark&#34;] .cve-page td { border-bottom: 1px solid #333333 !important; }
+
+  .post-header, .cve-page {
+    max-width: 740px !important;
+    margin: 0 auto !important;
+    padding: 0 20px !important;
+  }
+
+  .cve-page h2 {
+    display: block !important;
+    margin-top: 3rem !important;
+    margin-bottom: 1.2rem !important;
+  }
+
+  .cve-page table {
+    width: auto !important;
+    display: table !important;
+    border-collapse: collapse !important;
+    background: transparent !important;
+    margin-bottom: 3rem !important;
+  }
+
+  .cve-page th, .cve-page td {
+    border-left: none !important; border-right: none !important; border-top: none !important;
+    background: transparent !important;
+    text-align: left !important;
+  }
+
+  .cve-page th {
+    border-bottom: 1px solid #dddddd !important;
+    padding-bottom: 12px !important;
+  }
+  .cve-page td {
+    border-bottom: 1px solid #dddddd !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+  }
+
+  .cve-page tr:last-child td { border-bottom: none !important; }
+
+  .cve-page table th:first-child, .cve-page table td:first-child {
+    padding-right: 80px !important;
+  }
+
+  .cve-page table th:last-child, .cve-page table td:last-child {
+    padding-right: 20px !important;
+  }
+&lt;/style&gt;
+&lt;div class=&#34;cve-page&#34;&gt;
+&lt;h2 id=&#34;2026&#34;&gt;2026&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Android Security Bulletin&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;CVE ID&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;&lt;a href=&#34;https://source.android.com/docs/security/bulletin/2026/2026-06-01&#34;&gt;June&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2026-0018&#34;&gt;CVE-2026-0018&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2026-0078&#34;&gt;CVE-2026-0078&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;&lt;a href=&#34;https://source.android.com/docs/security/bulletin/2026/2026-03-01&#34;&gt;March&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2025-48644&#34;&gt;CVE-2025-48644&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2026-0015&#34;&gt;CVE-2026-0015&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;2025&#34;&gt;2025&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Android Security Bulletin&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;CVE ID&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;&lt;a href=&#34;https://source.android.com/docs/security/bulletin/2025-12-01&#34;&gt;December&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2025-48589&#34;&gt;CVE-2025-48589&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2025-48590&#34;&gt;CVE-2025-48590&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2025-48607&#34;&gt;CVE-2025-48607&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;&lt;a href=&#34;https://source.android.com/docs/security/bulletin/2025-09-01&#34;&gt;September&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2025-48537&#34;&gt;CVE-2025-48537&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2025-48552&#34;&gt;CVE-2025-48552&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2025-48559&#34;&gt;CVE-2025-48559&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;&lt;a href=&#34;https://source.android.com/docs/security/bulletin/2025-06-01&#34;&gt;June&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2025-26463&#34;&gt;CVE-2025-26463&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2025-26449&#34;&gt;CVE-2025-26449&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;&lt;a href=&#34;https://source.android.com/docs/security/bulletin/2025-05-01&#34;&gt;May&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2025-26423&#34;&gt;CVE-2025-26423&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2025-26429&#34;&gt;CVE-2025-26429&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;&lt;a href=&#34;https://source.android.com/docs/security/bulletin/2025-04-01&#34;&gt;April&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2025-22431&#34;&gt;CVE-2025-22431&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;2024&#34;&gt;2024&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Android Security Bulletin&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;CVE ID&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;&lt;a href=&#34;https://source.android.com/docs/security/bulletin/2024-11-01&#34;&gt;November&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2024-43083&#34;&gt;CVE-2024-43083&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;&lt;a href=&#34;https://source.android.com/docs/security/bulletin/2024-10-01&#34;&gt;October&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2024-40674&#34;&gt;CVE-2024-40674&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;&lt;a href=&#34;https://source.android.com/docs/security/bulletin/2024-04-01&#34;&gt;April&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2024-0026&#34;&gt;CVE-2024-0026&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2024-0027&#34;&gt;CVE-2024-0027&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2024-23713&#34;&gt;CVE-2024-23712&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2024-23713&#34;&gt;CVE-2024-23713&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;2023&#34;&gt;2023&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Android Security Bulletin&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;CVE ID&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;&lt;a href=&#34;https://source.android.com/docs/security/bulletin/2023-10-01&#34;&gt;October&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2023-21252&#34;&gt;CVE-2023-21252&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2023-21348&#34;&gt;CVE-2023-21348&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2023-21350&#34;&gt;CVE-2023-21350&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;&lt;a href=&#34;https://source.android.com/docs/security/bulletin/2023-07-01&#34;&gt;July&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2023-21240&#34;&gt;CVE-2023-21240&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2023-21243&#34;&gt;CVE-2023-21243&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;&lt;a href=&#34;https://source.android.com/docs/security/bulletin/2023-06-01&#34;&gt;June&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://nvd.nist.gov/vuln/detail/CVE-2023-21143&#34;&gt;CVE-2023-21143&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>My projects on GitHub</title>
+      <link>/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/projects/</guid>
+      <description>&lt;style&gt;
+  .post-header,
+  .project-card-wrapper {
+    max-width: 740px !important;
+    margin: 0 auto !important;
+    padding: 0 20px !important;
+  }
+&lt;/style&gt;
+&lt;style&gt;
+    .project-card-wrapper .post-entry {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 20px;
+        position: relative;
+        border: 1px solid var(--border);
+        background: var(--entry);
+        border-radius: var(--radius);
+        overflow: hidden;
+
+        transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+                    box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        will-change: transform;
+        transform: translate3d(0, 0, 0);
+    }
+
+    .project-card-wrapper .card-image-wrapper {
+        flex-shrink: 0;
+        width: 240px;
+        height: 135px;
+        border-radius: 8px;
+        overflow: hidden;
+        background: var(--tertiary);
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .project-card-wrapper .card-text-wrapper {
+        flex-grow: 1;
+        padding-top: 5px;
+    }
+
+    @media (hover: hover) {
+        .project-card-wrapper:hover .post-entry {
+            transform: translate3d(0, -6px, 0);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+        }
+    }
+
+    .project-card-wrapper:active .post-entry {
+        transform: translate3d(0, -2px, 0);
+    }
+
+    @media (max-width: 680px) {
+        .project-card-wrapper .post-entry {
+            flex-direction: column;
+            gap: 16px;
+            padding: 16px;
+        }
+
+        .project-card-wrapper .card-image-wrapper {
+            width: 100%;
+            height: 180px;
+        }
+
+        .project-card-wrapper .card-text-wrapper {
+            padding-top: 0;
+        }
+
+        .project-card-wrapper .entry-header h3 {
+            font-size: 1.3rem !important;
+        }
+    }
+&lt;/style&gt;
+
+&lt;div class=&#34;project-card-wrapper&#34; style=&#34;margin-bottom: 1.5rem;&#34;&gt;
+    &lt;article class=&#34;post-entry&#34;&gt;
+        
+        &lt;div class=&#34;card-image-wrapper&#34;&gt;
+            &lt;img src=&#34;/images/ghidra.webp&#34;
+                 alt=&#34;preview&#34;
+                 style=&#34;width: 100%; height: 100%; object-fit: cover; margin: 0; display: block;&#34;&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div class=&#34;card-text-wrapper&#34;&gt;
+            &lt;header class=&#34;entry-header&#34;&gt;
+                &lt;h3 style=&#34;margin: 0 0 10px 0; font-size: 1.5rem; line-height: 1.2; color: var(--primary); border: none;&#34;&gt;
+                    Ghidra
+                &lt;/h3&gt;
+            &lt;/header&gt;
+            &lt;div class=&#34;entry-content&#34; style=&#34;font-size: 1rem; color: var(--secondary); line-height: 1.5;&#34;&gt;
+                Contributions to Ghidra, the NSA&amp;rsquo;s reverse engineering framework
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;a href=&#34;https://github.com/NationalSecurityAgency/ghidra&#34;
+           target=&#34;_blank&#34;
+           rel=&#34;noopener noreferrer&#34;
+           style=&#34;position: absolute; inset: 0; z-index: 2;&#34;&gt;
+        &lt;/a&gt;
+    &lt;/article&gt;
+&lt;/div&gt;
+&lt;style&gt;
+    .project-card-wrapper .post-entry {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 20px;
+        position: relative;
+        border: 1px solid var(--border);
+        background: var(--entry);
+        border-radius: var(--radius);
+        overflow: hidden;
+
+        transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+                    box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        will-change: transform;
+        transform: translate3d(0, 0, 0);
+    }
+
+    .project-card-wrapper .card-image-wrapper {
+        flex-shrink: 0;
+        width: 240px;
+        height: 135px;
+        border-radius: 8px;
+        overflow: hidden;
+        background: var(--tertiary);
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .project-card-wrapper .card-text-wrapper {
+        flex-grow: 1;
+        padding-top: 5px;
+    }
+
+    @media (hover: hover) {
+        .project-card-wrapper:hover .post-entry {
+            transform: translate3d(0, -6px, 0);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+        }
+    }
+
+    .project-card-wrapper:active .post-entry {
+        transform: translate3d(0, -2px, 0);
+    }
+
+    @media (max-width: 680px) {
+        .project-card-wrapper .post-entry {
+            flex-direction: column;
+            gap: 16px;
+            padding: 16px;
+        }
+
+        .project-card-wrapper .card-image-wrapper {
+            width: 100%;
+            height: 180px;
+        }
+
+        .project-card-wrapper .card-text-wrapper {
+            padding-top: 0;
+        }
+
+        .project-card-wrapper .entry-header h3 {
+            font-size: 1.3rem !important;
+        }
+    }
+&lt;/style&gt;
+
+&lt;div class=&#34;project-card-wrapper&#34; style=&#34;margin-bottom: 1.5rem;&#34;&gt;
+    &lt;article class=&#34;post-entry&#34;&gt;
+        
+        &lt;div class=&#34;card-image-wrapper&#34;&gt;
+            &lt;img src=&#34;/images/angry-ghidra.webp&#34;
+                 alt=&#34;preview&#34;
+                 style=&#34;width: 100%; height: 100%; object-fit: cover; margin: 0; display: block;&#34;&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div class=&#34;card-text-wrapper&#34;&gt;
+            &lt;header class=&#34;entry-header&#34;&gt;
+                &lt;h3 style=&#34;margin: 0 0 10px 0; font-size: 1.5rem; line-height: 1.2; color: var(--primary); border: none;&#34;&gt;
+                    AngryGhidra
+                &lt;/h3&gt;
+            &lt;/header&gt;
+            &lt;div class=&#34;entry-content&#34; style=&#34;font-size: 1rem; color: var(--secondary); line-height: 1.5;&#34;&gt;
+                Use Angr from Ghidra for symbolic execution
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;a href=&#34;https://github.com/Nalen98/AngryGhidra&#34;
+           target=&#34;_blank&#34;
+           rel=&#34;noopener noreferrer&#34;
+           style=&#34;position: absolute; inset: 0; z-index: 2;&#34;&gt;
+        &lt;/a&gt;
+    &lt;/article&gt;
+&lt;/div&gt;
+&lt;style&gt;
+    .project-card-wrapper .post-entry {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 20px;
+        position: relative;
+        border: 1px solid var(--border);
+        background: var(--entry);
+        border-radius: var(--radius);
+        overflow: hidden;
+
+        transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+                    box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        will-change: transform;
+        transform: translate3d(0, 0, 0);
+    }
+
+    .project-card-wrapper .card-image-wrapper {
+        flex-shrink: 0;
+        width: 240px;
+        height: 135px;
+        border-radius: 8px;
+        overflow: hidden;
+        background: var(--tertiary);
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .project-card-wrapper .card-text-wrapper {
+        flex-grow: 1;
+        padding-top: 5px;
+    }
+
+    @media (hover: hover) {
+        .project-card-wrapper:hover .post-entry {
+            transform: translate3d(0, -6px, 0);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+        }
+    }
+
+    .project-card-wrapper:active .post-entry {
+        transform: translate3d(0, -2px, 0);
+    }
+
+    @media (max-width: 680px) {
+        .project-card-wrapper .post-entry {
+            flex-direction: column;
+            gap: 16px;
+            padding: 16px;
+        }
+
+        .project-card-wrapper .card-image-wrapper {
+            width: 100%;
+            height: 180px;
+        }
+
+        .project-card-wrapper .card-text-wrapper {
+            padding-top: 0;
+        }
+
+        .project-card-wrapper .entry-header h3 {
+            font-size: 1.3rem !important;
+        }
+    }
+&lt;/style&gt;
+
+&lt;div class=&#34;project-card-wrapper&#34; style=&#34;margin-bottom: 1.5rem;&#34;&gt;
+    &lt;article class=&#34;post-entry&#34;&gt;
+        
+        &lt;div class=&#34;card-image-wrapper&#34;&gt;
+            &lt;img src=&#34;/images/ghidra-emu.webp&#34;
+                 alt=&#34;preview&#34;
+                 style=&#34;width: 100%; height: 100%; object-fit: cover; margin: 0; display: block;&#34;&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div class=&#34;card-text-wrapper&#34;&gt;
+            &lt;header class=&#34;entry-header&#34;&gt;
+                &lt;h3 style=&#34;margin: 0 0 10px 0; font-size: 1.5rem; line-height: 1.2; color: var(--primary); border: none;&#34;&gt;
+                    GhidraEmu
+                &lt;/h3&gt;
+            &lt;/header&gt;
+            &lt;div class=&#34;entry-content&#34; style=&#34;font-size: 1rem; color: var(--secondary); line-height: 1.5;&#34;&gt;
+                A native Pcode emulator for Ghidra
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;a href=&#34;https://github.com/Nalen98/GhidraEmu&#34;
+           target=&#34;_blank&#34;
+           rel=&#34;noopener noreferrer&#34;
+           style=&#34;position: absolute; inset: 0; z-index: 2;&#34;&gt;
+        &lt;/a&gt;
+    &lt;/article&gt;
+&lt;/div&gt;
+&lt;style&gt;
+    .project-card-wrapper .post-entry {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 20px;
+        position: relative;
+        border: 1px solid var(--border);
+        background: var(--entry);
+        border-radius: var(--radius);
+        overflow: hidden;
+
+        transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+                    box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        will-change: transform;
+        transform: translate3d(0, 0, 0);
+    }
+
+    .project-card-wrapper .card-image-wrapper {
+        flex-shrink: 0;
+        width: 240px;
+        height: 135px;
+        border-radius: 8px;
+        overflow: hidden;
+        background: var(--tertiary);
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .project-card-wrapper .card-text-wrapper {
+        flex-grow: 1;
+        padding-top: 5px;
+    }
+
+    @media (hover: hover) {
+        .project-card-wrapper:hover .post-entry {
+            transform: translate3d(0, -6px, 0);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+        }
+    }
+
+    .project-card-wrapper:active .post-entry {
+        transform: translate3d(0, -2px, 0);
+    }
+
+    @media (max-width: 680px) {
+        .project-card-wrapper .post-entry {
+            flex-direction: column;
+            gap: 16px;
+            padding: 16px;
+        }
+
+        .project-card-wrapper .card-image-wrapper {
+            width: 100%;
+            height: 180px;
+        }
+
+        .project-card-wrapper .card-text-wrapper {
+            padding-top: 0;
+        }
+
+        .project-card-wrapper .entry-header h3 {
+            font-size: 1.3rem !important;
+        }
+    }
+&lt;/style&gt;
+
+&lt;div class=&#34;project-card-wrapper&#34; style=&#34;margin-bottom: 1.5rem;&#34;&gt;
+    &lt;article class=&#34;post-entry&#34;&gt;
+        
+        &lt;div class=&#34;card-image-wrapper&#34;&gt;
+            &lt;img src=&#34;/images/ebpf-ghidra.webp&#34;
+                 alt=&#34;preview&#34;
+                 style=&#34;width: 100%; height: 100%; object-fit: cover; margin: 0; display: block;&#34;&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div class=&#34;card-text-wrapper&#34;&gt;
+            &lt;header class=&#34;entry-header&#34;&gt;
+                &lt;h3 style=&#34;margin: 0 0 10px 0; font-size: 1.5rem; line-height: 1.2; color: var(--primary); border: none;&#34;&gt;
+                    eBPF-for-Ghidra
+                &lt;/h3&gt;
+            &lt;/header&gt;
+            &lt;div class=&#34;entry-content&#34; style=&#34;font-size: 1rem; color: var(--secondary); line-height: 1.5;&#34;&gt;
+                eBPF processor module for Ghidra&lt;br&gt;(merged upstream in May 2023)
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;a href=&#34;https://github.com/Nalen98/eBPF-for-Ghidra&#34;
+           target=&#34;_blank&#34;
+           rel=&#34;noopener noreferrer&#34;
+           style=&#34;position: absolute; inset: 0; z-index: 2;&#34;&gt;
+        &lt;/a&gt;
+    &lt;/article&gt;
+&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>
