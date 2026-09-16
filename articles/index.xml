@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Articles on Alena Skliarova</title>
+    <link>/articles/</link>
+    <description>Recent content in Articles on Alena Skliarova</description>
+    <generator>Hugo -- 0.154.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SAST for the beginners. Open-source vulnerability detection tools for C/C&#43;&#43;</title>
+      <link>/articles/sast-for-beginners/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>/articles/sast-for-beginners/</guid>
+      <description>&lt;p&gt;A beginner-friendly overview of open-source Static Application Security Testing (SAST) tools for identifying vulnerabilities and enhancing code quality in C/C++ projects&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Symbolic execution in Ghidra with angr</title>
+      <link>/articles/symbolic-execution-angr/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/articles/symbolic-execution-angr/</guid>
+      <description>&lt;p&gt;An overview of AngryGhidra, a Ghidra plugin that bridges the GUI with Angr symbolic execution engine to automate binary analysis and crackme solving without writing a single line of code&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Decompilation eBPF in Ghidra</title>
+      <link>/articles/decompilation-ebpf/</link>
+      <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/articles/decompilation-ebpf/</guid>
+      <description>&lt;p&gt;A practical guide to implementing eBPF processor support in Ghidra using Sleigh, enabling reverse engineers to disassemble and decompile eBPF bytecode&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
