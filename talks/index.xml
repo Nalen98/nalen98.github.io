@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Conference talks on Alena Skliarova</title>
+    <link>/talks/</link>
+    <description>Recent content in Conference talks on Alena Skliarova</description>
+    <generator>Hugo -- 0.154.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/talks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Protecting Android Application Resources with Runtime Resource Overlay</title>
+      <link>/talks/mobius-2025-autumn/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/talks/mobius-2025-autumn/</guid>
+      <description>&lt;p&gt;In this talk, I explore Runtime Resource Overlay (RRO), an often overlooked yet powerful mechanism in the Android operating system that allows applications to dynamically modify their own resources — as well as those of other apps — at runtime without recompilation. I analyze the significant potential RRO holds for safeguarding application resources, such as storing data in an encrypted form and decrypting it on the fly. This dynamic resource substitution drastically complicates reverse engineering efforts, making mobile apps far more resilient to analysis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pwned on the Road: How Car-UI-Lib Vulnerability Put Android Automotive Users at Risk</title>
+      <link>/talks/tengucon-2025/</link>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/talks/tengucon-2025/</guid>
+      <description>&lt;p&gt;Your in-car screen is meant to show the truth — but what if it doesn’t?&lt;/p&gt;
+&lt;p&gt;This talk explores a vulnerability in car-ui-lib that affects Android Automotive system apps, specifically impacting users with rotary controllers. The vulnerability allows attackers to manipulate content on the car’s infotainment system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Life-Threatening Bug: A Vulnerability in Android OS That Cuts Off Users in Critical Situations</title>
+      <link>/talks/offzone-2025/</link>
+      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>/talks/offzone-2025/</guid>
+      <description>&lt;p&gt;This talk analyzes weaknesses in the Android permission model and uncovers flaws in the global restriction policy that can disrupt vital system features like emergency calls. It dives deep under the hood of the operating system to demonstrate this vulnerability in action.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Resource Overlay Attacks on Android Applications</title>
+      <link>/talks/phtalks-2025-jakarta/</link>
+      <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>/talks/phtalks-2025-jakarta/</guid>
+      <description>&lt;p&gt;This talk explores how attackers exploit the Android Runtime Resource Overlay (RRO) mechanism to dynamically alter application resources. By overriding resources at runtime, malicious actors can change an app&amp;rsquo;s appearance and behavior on the fly, manipulating the user experience to trick users into unintended actions.&lt;/p&gt;
+&lt;p&gt;The session also analyzes the specific security risks for app developers and highlights effective mitigation strategies to defend against these attacks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>From idea to CVE: How to Find Vulnerabilities in Android</title>
+      <link>/talks/mobius-2025-spring/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/talks/mobius-2025-spring/</guid>
+      <description>&lt;p&gt;In this talk, I break down how to discover security vulnerabilities in the Android operating system and provide practical recommendations on where to start, how to choose a target, and which methods and tools to use. I share key insights into what to focus on during the research process and cover the essential components required to craft a high-quality technical report.&lt;/p&gt;
+&lt;p&gt;Additionally, I walk through the entire lifecycle of a vulnerability — from its initial discovery to CVE assignment and final publication in the Android Security Bulletin. I also share the technical details of several patched vulnerabilities that I personally uncovered in Android OS, making this session ideal for anyone interested in Android security and looking to dive into mobile bug hunting.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Journey in Google Bug Bounty</title>
+      <link>/talks/tengucon-2024/</link>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>/talks/tengucon-2024/</guid>
+      <description>&lt;p&gt;This talk offers a candid reflection on a personal bug bounty journey, recapping both successful high-severity reports and instructive failures. It analyzes common mistakes made by bug hunters and provides a firsthand look into how the Android Vulnerability Reward Program works.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
